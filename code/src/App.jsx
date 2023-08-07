@@ -9,7 +9,7 @@ function App() {
     <>
       {/* root div is a flex box containing nav and a div (which contains hero and other stuff), this way the nav is rendered on the left as I want it to  */}
       <Nav/>
-      <div class="flex flex-col">
+      <div class="flex flex-col w-11/12 h-full border-2 border-red-600">
         <Hero/>
         <Carousels/>
       </div>
